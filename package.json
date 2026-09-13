@@ -1,0 +1,13 @@
+{
+  "name": "ci-cd-lab",
+  "version": "1.0.0",
+  "description": "Laboratório de CI/CD",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "build": "node -e \"console.log('Build executado')\""
+  },
+  "devDependencies": {
+    "jest": "^30.5.1"
+  }
+}
